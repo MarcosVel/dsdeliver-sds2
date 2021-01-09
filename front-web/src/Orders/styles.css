@@ -259,7 +259,9 @@
 
 .order-summary-make-order:hover {
   background-color: #fcf2f2;
-  transform: scale(1.01);
+  /* transform: scale(1.01); */
+  border: 5px double var(--primary-color);
+  transition: 50ms ease;
 }
 
 @media only screen and (max-width: 768px) {
