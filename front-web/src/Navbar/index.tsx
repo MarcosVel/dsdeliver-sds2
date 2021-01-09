@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className='main-navbar'>      
       <Link to='/' className='logo-text'>
-        <Logo className='logo-svg' />DS Deliver
+        <Logo className='logo-svg' />DS Delivery
       </Link>
     </nav>
   );
